@@ -43,7 +43,7 @@ public class Item : MonoBehaviour, IInteractable
             gameObject.SetActive(false);
         }
         else{
-            Debug.Debug.LogError("No component 'InventorySystem'!!!");
+            Debug.LogError("No component 'InventorySystem'!!!");
         }
     }
 
@@ -58,7 +58,8 @@ public class Item : MonoBehaviour, IInteractable
             }
         }
         else{
-            Debug.Debug.LogError("No component 'InventorySystem'!!!");
+            Debug.LogError("No component 'InventorySystem'!!!");
+            return false;
         }
     }
 }
